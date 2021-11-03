@@ -1,15 +1,32 @@
-ul {
+div {
     list-style-type: none;
   }
 
 .navbar {
     display: flex; 
+    background-color: rgb(34, 89, 121);
+    height: 50px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
 }
 
-.navbarButton{
-    padding: 1rem;
-    color: white;
+.navbar button{
+    color: black;
+    height: 35px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    background-color: white;
     text-decoration: none;
+}
+
+.pilt1 img {
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
+    height: 25%;
+    width: 25%;
+    display: flex;
 }
 
 body {
