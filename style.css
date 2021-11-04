@@ -8,15 +8,15 @@ p{
 }
 
 .navbar {
+    justify-content: space-between;
     display: flex;
-    justify-content: end;
     background-color: rgb(34, 89, 121);
     height: 50px;
     align-items: center;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
 }
 
-.navbar a{
+.navbuttons a {
     display: flex;
     align-items: center;
     color: white;
@@ -25,6 +25,16 @@ p{
     padding-right: 25px;
     text-align: center;
     background-color: transparent;
+}
+
+.navbuttons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    height: 35px;
+    margin-left: 50px;
 }
 
 .pic1 img {
@@ -78,6 +88,16 @@ body {
         margin: 15px;
     }
 
+    .navbar img {
+        display: none;
+        visibility: hidden;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+
     .pictures img {
         height: 400px;
         width: 100%;
@@ -87,7 +107,6 @@ body {
     }
 
     .container {
-        max-width: 1280px;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
