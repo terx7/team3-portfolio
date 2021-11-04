@@ -3,24 +3,28 @@ div a{
     text-decoration: none;
   }
 
+p{
+    color:white;
+}
+
 .navbar {
     display: flex;
-    justify-content: space-between; 
+    justify-content: end;
     background-color: rgb(34, 89, 121);
     height: 50px;
+    align-items: center;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
 }
 
-.navbar button{
-    color: black;
+.navbar a{
+    display: flex;
+    align-items: center;
+    color: white;
     height: 35px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
-    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
     text-align: center;
-    border-radius: 5px;
-    width: 200px;
-    background-color: white;
-    text-decoration: none;
+    background-color: transparent;
 }
 
 .pic1 img {
