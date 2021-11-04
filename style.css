@@ -28,6 +28,7 @@ p{
     cursor: pointer;
     text-align: center;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .navbuttons {
@@ -38,6 +39,13 @@ p{
 .navbar img {
     height: 35px;
     margin-left: 50px;
+}
+
+.pic1 img {
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
+    height: 550px;
+
 }
 
 .pic1 img {
@@ -140,3 +148,23 @@ body {
         padding-right: 0px;
     }
   }
+
+  .footer {
+    display: flex;
+    background-color: rgb(34, 89, 121);
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+  .mail-text-color {
+      color: rgb(17, 182, 233);
+  }
+
+.social-media-icons{
+    align-self: center;
+}
+.info{
+    align-self: center;
+    text-align: center;
+}
