@@ -82,11 +82,12 @@ body {
 
 @media only screen and (max-width: 1024px) {
     .pictures {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 50px;
-        margin: 15px;
-        scroll-behavior: auto;
+        width: 350px;
+        display: flex;
+        overflow-x: scroll;
+        gap: 65px;
+        margin: 5px;
+        scroll-behavior: smooth;
     }
 
     .navbar img {
@@ -97,6 +98,11 @@ body {
     .navbar {
         display: flex;
         justify-content: center;
+    }
+
+    .navbar a {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .pictures img {
