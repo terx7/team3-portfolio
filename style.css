@@ -45,3 +45,8 @@ body {
     font-size: 30px;
     gap: 230px;
 }
+
+
+@media (min-width: 480px) {
+    
+}
