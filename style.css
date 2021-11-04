@@ -12,8 +12,10 @@ p{
     display: flex;
     background-color: rgb(34, 89, 121);
     height: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: center;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.500);
 }
 
 .navbuttons a {
@@ -23,6 +25,7 @@ p{
     height: 35px;
     padding-left: 25px;
     padding-right: 25px;
+    cursor: pointer;
     text-align: center;
     background-color: transparent;
 }
@@ -60,7 +63,7 @@ body {
     width: 100%;
     object-fit: cover;
     border-radius: 15px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.500);
 }
 
 .container {
@@ -74,10 +77,12 @@ body {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.500);
 }
 
 .avatar-wrapper {
     padding-right: 200px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.500);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -88,6 +93,10 @@ body {
         gap: 65px;
         margin: 5px;
         scroll-behavior: smooth;
+    }
+
+    .pic1 img {
+        height: 350px;
     }
 
     .navbar img {
@@ -122,11 +131,11 @@ body {
         margin-top: 50px;
         color: white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .avatar-wrapper {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
   }
