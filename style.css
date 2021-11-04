@@ -25,6 +25,7 @@ p{
     padding-right: 25px;
     text-align: center;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .navbuttons {
@@ -131,3 +132,23 @@ body {
         padding-right: 50px;
     }
   }
+
+  .footer {
+    display: flex;
+    background-color: rgb(34, 89, 121);
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+  .mail-text-color {
+      color: rgb(17, 182, 233);
+  }
+
+.social-media-icons{
+    align-self: center;
+}
+.info{
+    align-self: center;
+    text-align: center;
+}
